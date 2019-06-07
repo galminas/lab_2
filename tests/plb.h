@@ -48,7 +48,7 @@ TEST(plb2, t1)
     } else
         fgets(buf, MAXLINE, f);
 
-    ASSERT_STREQ(buf, "tak pol\n");
+    ASSERT_STREQ(buf, "love te\n");
 
     fclose(f);
 
